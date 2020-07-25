@@ -118,6 +118,13 @@ Blockchain provide a peer to peer network. This characteristic of blockchain all
 For instance, if I am sending some money from US to my friend in India through bank, then the bank will be the trusted third party. First it will verify the transaction and then may cut some charges for the transaction. Hence the blockchain comes into sight. It aims at removing trusted third party so as to makes the transaction fast and cheap.
 ## Question 4:
 ## What all things does a Block contain?
+Blockchain was invented by Satoshi Nakamoto. As the name suggests, blockchain is a chain of blocks that contains information. Each block consists of a number of transactions and each transaction is recorded in the form of Hash. Hash is a unique address assigned to each block during its creation and any further modification in the block will lead to a change in its hash.
 
+A block has mainly 3 parts:
+
+Data/Information part- contain the information of the transaction incurred
+Hash- Unique ID of block
+Previous Hash- Hash of previous block
 ## Question 5:
-## How is the verifiability of Blockchain has been attained?
+## How is the verifiability of Blockchain has been attend?
+The bitcoin blockchain is public and distributed to nodes and miners all over the world. It is verifiable, in that anybody can check all of the transactions and hashes all the way back to the genesis block, and if any attempt to change anything is made, the hash values will change and verification will fail.
